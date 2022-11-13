@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+// Import Bootstrap
+@import "../node_modules//bootstrap/scss/bootstrap.scss";
+
+// Import BLK_DESIGN_SYSTEM SCSS
+@import "../node_modules/blk-design-system-angular/src/styles.scss";
+
+html {
+    background-color: #030716 !important;
+    color: white;
+}
+body {
+    background-color: #030716 !important;
+    color: white;
+}
