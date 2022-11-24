@@ -1,16 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/bootstrap.scss";
 
-// Import Bootstrap
-@import "../node_modules//bootstrap/scss/bootstrap.scss";
+@import "assets/sass/now-ui-kit.scss";
 
-// Import BLK_DESIGN_SYSTEM SCSS
-@import "../node_modules/blk-design-system-angular/src/styles.scss";
-
-html {
-    background-color: #030716 !important;
-    color: white;
-}
-body {
-    background-color: #030716 !important;
-    color: white;
+body, html {
+    background-color: $primary-color !important;
+    color: $white-color;
 }
